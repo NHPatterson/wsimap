@@ -9,13 +9,13 @@ Clone repo
 Create conda environment
 Activate environment
 
-Install detecton2: https://detectron2.readthedocs.io/en/latest/tutorials/install.html
+Install pytorch for system
 
+Install detecton2: https://detectron2.readthedocs.io/en/latest/tutorials/install.html
 
 pip installs...
 
 ```bash
 pip install -r requirements.txt
 ```
-
 
