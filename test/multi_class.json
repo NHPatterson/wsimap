@@ -1,0 +1,224 @@
+[
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [10783, 11994],
+                  [10400, 12761],
+                  [10952, 12623],
+                  [10783, 11994]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class1",
+                "colorRGB": -14568209
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [20402, 9671],
+                  [20119, 10160],
+                  [20299, 10932],
+                  [20788, 10392],
+                  [20402, 9671]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class1",
+                "colorRGB": -14568209
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [22049, 9916],
+                  [21354, 10482],
+                  [21689, 11356],
+                  [22255, 10868],
+                  [22267, 10855],
+                  [22049, 9916]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class1",
+                "colorRGB": -14568209
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [18604, 14745],
+                  [18371, 14750],
+                  [18403, 14981],
+                  [18403, 14983],
+                  [18638, 15193],
+                  [18942, 14858],
+                  [18604, 14745]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class2",
+                "colorRGB": -14555795
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [19793, 13913],
+                  [19594, 14083],
+                  [19528, 14397],
+                  [19685, 14475],
+                  [19968, 14255],
+                  [19793, 13913]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class2",
+                "colorRGB": -14555795
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [9125, 12838],
+                  [9018, 13160],
+                  [9233, 13498],
+                  [9386, 13483],
+                  [9448, 12838],
+                  [9125, 12838]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class2",
+                "colorRGB": -14555795
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [12564, 10182],
+                  [12380, 10827],
+                  [12641, 10858],
+                  [12810, 10443],
+                  [12564, 10182]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class3",
+                "colorRGB": -14603624
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [21379, 11984],
+                  [21097, 12054],
+                  [20954, 12394],
+                  [21440, 12420],
+                  [21443, 12420],
+                  [21379, 11984]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class3",
+                "colorRGB": -14603624
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "PathAnnotationObject",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [19568, 14632],
+                  [19403, 14758],
+                  [19322, 15041],
+                  [19426, 15153],
+                  [19725, 14941],
+                  [19568, 14632]
+                ]
+              ]
+            },
+            "properties": {
+              "classification": {
+                "name": "class3",
+                "colorRGB": -14603624
+              },
+              "isLocked": false,
+              "measurements": []
+            }
+          }
+        ]

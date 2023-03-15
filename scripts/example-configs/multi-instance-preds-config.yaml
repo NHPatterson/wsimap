@@ -1,0 +1,40 @@
+test_images:
+ - C:/Users/pattenh1/Pictures/Hkids_1-2_-Scene-1-ScanRegion0.czi
+ - C:/Users/pattenh1/Pictures/Hkids_1-2_-Scene-2-ScanRegion1.czi
+ - C:/Users/pattenh1/Pictures/Hkids_3-4_-Scene-1-ScanRegion0.czi
+ - C:/Users/pattenh1/Pictures/Hkids_3-4_-Scene-2-ScanRegion1.czi
+ - C:/Users/pattenh1/Pictures/Hkids_5-6_-Scene-1-ScanRegion0.czi
+ - C:/Users/pattenh1/Pictures/Hkids_5-6_-Scene-2-ScanRegion1.czi
+ - C:/Users/pattenh1/Pictures/Hkids_7-8_-Scene-1-ScanRegion0.czi
+ - C:/Users/pattenh1/Pictures/Hkids_7-8_-Scene-2-ScanRegion1.czi
+
+
+model_path: Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/models/AF-multi-instance/model_final.pth
+model_architecture: regnet
+model_tag: AF-multi
+
+rev_class_dict:
+ 0: Collecting Duct
+ 1: Distal Tubule
+ 2: Glomerulus
+ 3: Proximal Tubule
+ 4: Thick Ascending Limb
+
+size_filter: 2000
+threshold: 0.50
+
+n_channels: 3
+batch_size: 2
+train_channels:
+    - 0
+    - 1
+    - 2
+
+output_dir: Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi
+downsampling: 1
+qp_type: detection
+edge_thresh: 0.25
+tile_overlap: 0.66
+post_scaling: 1.0
+
+

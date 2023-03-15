@@ -1,0 +1,101 @@
+# uses config/instance-train-from-config-newmodels-windows-multi.py
+train_images:
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/KPMP-D4-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0005-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0007-LK-202-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0008-RK-402-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0011-RK-4-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0012-RK-104-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0014-LK-203-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0019-LK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0025-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0027-RK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0028-LK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0029-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0030-LK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0033-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0043-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0044-LK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0045-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0046-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0048-LK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0049-RK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0050-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0053-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/train/VAN0054-LK-3-12-preAF-MxIF-merge.ome.tiff
+
+tissue_rois:
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/KPMP-D4-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0005-RK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0007-LK-202-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0008-RK-402-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0011-RK-4-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0012-RK-104-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0014-LK-203-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0019-LK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0025-LK-3-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0027-RK-1-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0028-LK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0029-RK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0030-LK-1-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0033-RK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0043-RK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0044-LK-1-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0045-LK-3-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0046-LK-3-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0048-LK-1-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0049-RK-1-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0050-RK-2-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0053-LK-3-12-preAF-MxIF-merge-tissue-rois.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/tissue-rois/VAN0054-LK-3-12-preAF-MxIF-merge-tissue-rois.geojson
+ 
+train_rois:
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/KPMP-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0005-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0007-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0008-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0011-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0012-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0014-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0019-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0025-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0027-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0028-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0029-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0030-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0033-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0043-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0044-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0045-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0046-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0048-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0049-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0050-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0053-all-annos.geojson
+ - Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/combined/annos/VAN0054-all-annos.geojson
+
+
+model_tag: AF-multi-instance
+
+n_channels: 3
+train_channels:
+ - 0
+ - 1
+ - 2
+
+
+rev_class_dict:
+ 0: Collecting Duct
+ 1: Distal Tubule
+ 2: Glomerulus
+ 3: Proximal Tubule
+ 4: Thick Ascending Limb
+ 
+ 
+output_dir: Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/models
+downsampling: 1
+offset_to_train_area: true
+size_filter: 1000
+data_dir: Y:/hubmap/sandbox/Segmentation/DR3-annotations-multi/train-data
+reload_from_pickle: true
+epoch: 25

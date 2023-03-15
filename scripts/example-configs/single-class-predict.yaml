@@ -1,0 +1,56 @@
+test_images:
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0005-RK-2-5-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0007-LK-202-13-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0008-RK-402-18-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0010-LK-154-19-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0011-RK-4-25-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0012-RK-104-20-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0014-LK-203-191-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0016-LK-203-107-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0023-LK-1-49-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0024-LK-2-55-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0025-LK-3-18-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0027-RK-1-22-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0028-LK-2-31-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0029-RK-2-122-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0030-LK-1-34-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0031-LK-3-97-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0033-RK-2-88-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0041-LK-1-45-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0042-RK-1-31-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0043-RK-2-53-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0044-LK-1-46-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0045-LK-3-25-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0046-LK-3-45-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0048-LK-1-25-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0049-RK-1-35-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0050-RK-2-35-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0051-LK-3-23-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0052-RK-2-14-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0053-LK-3-23-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0054-LK-3-5-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0055-RK-1-11-preAF_to_postAF_registered.ome.tiff
+ - Y:/hubmap/sandbox/DR3-registration/registered-microscopy/VAN0063-RK-1-41-preAF_to_postAF_registered.ome.tiff
+
+model_tag: AF-CD-mask-rcnn
+n_channels: 3
+batch_size: 2
+train_channels:
+    - 0
+    - 1
+    - 2
+prediction_class: Collecting Duct
+all_classes:
+    - Proximal Tubule
+    - unnamed
+    - Glomerulus
+    - train-area
+    - Distal Tubule
+    - Thick Ascending Limb
+    - Collecting Duct
+    - Descending Thin Limb
+output_dir: Y:/hubmap/sandbox/Segmentation/DR3-predictions/CDs
+downsampling: 1
+model_path: Z:/segmentation/DR3/cd-models/af-all/AF-cd-all-inst-mask-rcnn/model_final.pth
+qp_type: detection
+size_filter: 3000

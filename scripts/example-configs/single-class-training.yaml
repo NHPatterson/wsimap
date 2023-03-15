@@ -1,0 +1,65 @@
+# uses config/instance-train-from-config-single.py
+train_images:
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/KPMP-D4-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0005-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0008-RK-402-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0012-RK-104-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0014-LK-203-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0019-LK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0025-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0028-LK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0029-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0030-LK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0033-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0040-LK-4-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0042-RK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0044-LK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0045-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0046-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/VAN0048-LK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0049-RK-1-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0050-RK-2-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0053-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0054-LK-3-12-preAF-MxIF-merge.ome.tiff
+ - O:/Instruments/AxioScanner/Heath/DR3-MxIF-registered/set2/VAN0063-RK-1-12-preAF-MxIF-merge.ome.tiff
+
+
+train_rois:
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/KPMP-D4-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0005-RK-2-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0012-RK-104-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0014-LK-203-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0025-LK-3-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0028-LK-2-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0029-RK-2-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0030-LK-1-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0033-RK-2-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0040-LK-4-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0042-RK-1-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0044-LK-1-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0046-LK-3-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0048-LK-1-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0049-RK-1-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0050-RK-2-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0053-LK-3-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0054-LK-3-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ - Y:/hubmap/sandbox/Segmentation/Annotations/curated/DT-train/filtered/VAN0063-RK-1-12-preAF-MxIF-merge-DTs-DT-train-filt0.70.geojson
+ 
+model_tag: AF-TAL-mask-rcnn
+n_channels: 3
+train_channels:
+    - 0
+    - 1
+    - 2
+prediction_class: Thick Ascending Limb
+all_classes:
+    - Thick Ascending Limb
+    - train-area
+    - negative-area
+output_dir: Y:/hubmap/sandbox/Segmentation/models/TAL
+epoch: 25
+downsampling: 1
+data_dir: E:/mxif-train-data/tal-af
+offset_to_train_area: true
+negative_roi: negative-area
+reload_from_pickle: true
