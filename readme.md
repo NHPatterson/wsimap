@@ -19,3 +19,7 @@ pip installs...
 pip install -r requirements.txt
 ```
 
+Then you can install the package if in the root directory:
+```bash
+pip install -e .
+```
