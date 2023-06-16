@@ -3,6 +3,8 @@ Tools for doing analysis on whole slide images (WSIs) converted to chunked zarr 
 - Uses Shapely library to manage spatial operations
 - Prepares the data for tiled analysis: segmentation or other functions
 
+This library has some quality issues and is still a work-in-progress.
+
 # Installation
 
 Clone repo 
